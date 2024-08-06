@@ -1,0 +1,16 @@
+.header{
+    width: 100%;
+    background-color: orange;
+    color: white;
+}
+
+.title-container{
+    text-align: left;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.title-container h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

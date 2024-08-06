@@ -1,0 +1,28 @@
+.article-container{
+    max-width: 1024px;
+    margin: auto;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    width: 90%;
+    text-align: left;
+}
+.article:last-child{
+    border:none;
+}
+
+.article img{
+    /* max-width: 800px; */
+    max-height: 400px;
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+}
+
+.loading-img{
+    margin: 100px auto;
+}

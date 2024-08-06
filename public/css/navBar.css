@@ -1,0 +1,26 @@
+.category-button{
+    background-color: white;
+    color: orange;
+    transition: 0.3s;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* margin: auto; */
+}
+
+.category-button:hover{
+    border: orange;
+    scale: 1.1;
+    background-color: orange;
+    color: white;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 600px){
+    .navBar{
+        justify-content: center;
+    }
+}
